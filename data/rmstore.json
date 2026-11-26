@@ -1,0 +1,693 @@
+{
+  "toko": {
+    "id": "toko-rmstore-01",
+    "email": "pemilik@rmstore.id",
+    "ownerEmails": [
+      "pemilik@rmstore.id",
+      "n04671426@gmail.com"
+    ],
+    "nama_toko": "RMStore",
+    "logo_url": "/src/assets/images/hero_rmstore_counter_1795622176108.jpg",
+    "deskripsi": "Toko kurasi kebutuhan harian dan kopi seduh lokal dengan pengantaran terjadwal langsung ke rumah Anda. Bayar tunai di tempat (COD) setelah barang diterima.",
+    "alamat_kios": "Jl. Melati Raya No. 18, Ruko Taman Asri, Kecamatan Pusat",
+    "no_whatsapp": "6281122334455",
+    "dibuat_pada": "2026-09-26T16:05:35.022Z",
+    "lat": -6.1944,
+    "lng": 106.8229
+  },
+  "jadwal_antar": [
+    {
+      "id": "jad-1",
+      "hari": 1,
+      "jam_mulai": "15:00",
+      "jam_selesai": "18:00",
+      "jam_batas_pesan": "13:00",
+      "aktif": true
+    },
+    {
+      "id": "jad-2",
+      "hari": 2,
+      "jam_mulai": "15:00",
+      "jam_selesai": "18:00",
+      "jam_batas_pesan": "13:00",
+      "aktif": true
+    },
+    {
+      "id": "jad-3",
+      "hari": 3,
+      "jam_mulai": "15:00",
+      "jam_selesai": "18:00",
+      "jam_batas_pesan": "13:00",
+      "aktif": true
+    },
+    {
+      "id": "jad-4",
+      "hari": 4,
+      "jam_mulai": "15:00",
+      "jam_selesai": "18:00",
+      "jam_batas_pesan": "13:00",
+      "aktif": true
+    },
+    {
+      "id": "jad-5",
+      "hari": 5,
+      "jam_mulai": "15:00",
+      "jam_selesai": "18:00",
+      "jam_batas_pesan": "13:00",
+      "aktif": true
+    },
+    {
+      "id": "jad-6",
+      "hari": 6,
+      "jam_mulai": "10:00",
+      "jam_selesai": "14:00",
+      "jam_batas_pesan": "09:00",
+      "aktif": true
+    },
+    {
+      "id": "jad-7",
+      "hari": 7,
+      "jam_mulai": "10:00",
+      "jam_selesai": "13:00",
+      "jam_batas_pesan": "09:00",
+      "aktif": false
+    }
+  ],
+  "kategori": [
+    {
+      "id": "kat-kopi",
+      "nama": "Kopi & Minuman",
+      "urutan": 1
+    },
+    {
+      "id": "kat-rumah",
+      "nama": "Perlengkapan Rumah",
+      "urutan": 2
+    },
+    {
+      "id": "kat-meja",
+      "nama": "Aksesori Meja",
+      "urutan": 3
+    },
+    {
+      "id": "kat-tas",
+      "nama": "Tas & Harian",
+      "urutan": 4
+    }
+  ],
+  "produk": [
+    {
+      "id": "prod-kopi-gayo",
+      "kategori_id": "kat-kopi",
+      "nama": "Kopi Arabika Gayo Roast 250g",
+      "deskripsi": "Biji kopi Arabika Aceh Gayo sangrai medium dengan karakter rasa cokelat hitam, karamel, dan keasaman buah yang seimbang. Siap kirim langsung dari stok kios.",
+      "tipe": "Stok Sendiri",
+      "harga": 78000,
+      "stok": null,
+      "stok_minimum": 5,
+      "estimasi_tiba_hari": null,
+      "link_shopee": null,
+      "aktif": true,
+      "jumlah_terjual": 42,
+      "dihapus_pada": null,
+      "dibuat_pada": "2026-10-31T16:05:35.022Z",
+      "varian": [
+        {
+          "id": "var-kopi-biji",
+          "produk_id": "prod-kopi-gayo",
+          "nama_varian": "Biji Utuh (Whole Bean)",
+          "harga": 78000,
+          "stok": 12,
+          "aktif": true
+        },
+        {
+          "id": "var-kopi-halus",
+          "produk_id": "prod-kopi-gayo",
+          "nama_varian": "Giling Halus (Tubruk/Espresso)",
+          "harga": 78000,
+          "stok": 7,
+          "aktif": true
+        },
+        {
+          "id": "var-kopi-kasar",
+          "produk_id": "prod-kopi-gayo",
+          "nama_varian": "Giling Sedang (V60/Pour Over)",
+          "harga": 80000,
+          "stok": 3,
+          "aktif": true
+        }
+      ],
+      "foto": [
+        {
+          "id": "ft-kopi-1",
+          "produk_id": "prod-kopi-gayo",
+          "url": "/src/assets/images/product_kopi_arabika_1795622176264.jpg",
+          "urutan": 1
+        },
+        {
+          "id": "ft-kopi-2",
+          "produk_id": "prod-kopi-gayo",
+          "url": "/src/assets/images/hero_rmstore_counter_1795622176108.jpg",
+          "urutan": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-tumbler-matte",
+      "kategori_id": "kat-kopi",
+      "nama": "Tumbler Vakum Stainless 500ml",
+      "deskripsi": "Botol minum insulated ganda berbahan stainless steel 304 tahan panas hingga 10 jam dan dingin 18 jam. Tutup anti-bocor dengan pegangan ringkas.",
+      "tipe": "Stok Sendiri",
+      "harga": 135000,
+      "stok": null,
+      "stok_minimum": 4,
+      "estimasi_tiba_hari": null,
+      "link_shopee": null,
+      "aktif": true,
+      "jumlah_terjual": 28,
+      "dihapus_pada": null,
+      "dibuat_pada": "2026-11-05T16:05:35.022Z",
+      "varian": [
+        {
+          "id": "var-tumb-charcoal",
+          "produk_id": "prod-tumbler-matte",
+          "nama_varian": "Matte Charcoal",
+          "harga": null,
+          "stok": 3,
+          "aktif": true
+        },
+        {
+          "id": "var-tumb-stone",
+          "produk_id": "prod-tumbler-matte",
+          "nama_varian": "Warm Stone",
+          "harga": null,
+          "stok": 0,
+          "aktif": true
+        }
+      ],
+      "foto": [
+        {
+          "id": "ft-tumb-1",
+          "produk_id": "prod-tumbler-matte",
+          "url": "/src/assets/images/product_tumbler_stainless_1795622177026.jpg",
+          "urutan": 1
+        }
+      ]
+    },
+    {
+      "id": "prod-tas-kanvas",
+      "kategori_id": "kat-tas",
+      "nama": "Tas Kanvas Harian Heavyweight 14oz",
+      "deskripsi": "Tas jinjing kanvas katun tebal 14oz dengan tali webbing nilon kuat, saku dalam beritsleting untuk laptop 14 inci, dan jahitan ganda rapi.",
+      "tipe": "Stok Sendiri",
+      "harga": 118000,
+      "stok": 9,
+      "stok_minimum": 3,
+      "estimasi_tiba_hari": null,
+      "link_shopee": null,
+      "aktif": true,
+      "jumlah_terjual": 31,
+      "dihapus_pada": null,
+      "dibuat_pada": "2026-11-07T16:05:35.022Z",
+      "varian": [],
+      "foto": [
+        {
+          "id": "ft-tas-1",
+          "produk_id": "prod-tas-kanvas",
+          "url": "/src/assets/images/product_tas_kanvas_1795622178940.jpg",
+          "urutan": 1
+        }
+      ]
+    },
+    {
+      "id": "prod-lampu-meja",
+      "kategori_id": "kat-rumah",
+      "nama": "Lampu Meja LED Nirkabel Aluminium",
+      "deskripsi": "Lampu baca meja sentuh dengan 3 tingkat kecerahan hangat (2700K–4000K), baterai isi ulang USB-C tahan hingga 20 jam. Tersedia siap kirim dari kios.",
+      "tipe": "Stok Sendiri",
+      "harga": 195000,
+      "stok": null,
+      "stok_minimum": 3,
+      "estimasi_tiba_hari": null,
+      "link_shopee": null,
+      "aktif": true,
+      "jumlah_terjual": 19,
+      "dihapus_pada": null,
+      "dibuat_pada": "2026-11-13T16:05:35.022Z",
+      "varian": [
+        {
+          "id": "var-lampu-silver",
+          "produk_id": "prod-lampu-meja",
+          "nama_varian": "Brushed Silver",
+          "harga": 195000,
+          "stok": 5,
+          "aktif": true
+        },
+        {
+          "id": "var-lampu-black",
+          "produk_id": "prod-lampu-meja",
+          "nama_varian": "Anodized Black",
+          "harga": 205000,
+          "stok": 4,
+          "aktif": true
+        }
+      ],
+      "foto": [
+        {
+          "id": "ft-lampu-1",
+          "produk_id": "prod-lampu-meja",
+          "url": "/src/assets/images/product_lampu_meja_1795622177052.jpg",
+          "urutan": 1
+        }
+      ]
+    },
+    {
+      "id": "prod-organizer-meja",
+      "kategori_id": "kat-meja",
+      "nama": "Tray Organizer Meja Walnut & Matte",
+      "deskripsi": "Set wadah penataan meja modular kombinasi kayu walnut dan komposit matte hitam. Cocok untuk alat tulis, kacamata, dan catatan harian.",
+      "tipe": "Stok Sendiri",
+      "harga": 162000,
+      "stok": 7,
+      "stok_minimum": 3,
+      "estimasi_tiba_hari": null,
+      "link_shopee": null,
+      "aktif": true,
+      "jumlah_terjual": 14,
+      "dihapus_pada": null,
+      "dibuat_pada": "2026-11-17T16:05:35.022Z",
+      "varian": [],
+      "foto": [
+        {
+          "id": "ft-org-1",
+          "produk_id": "prod-organizer-meja",
+          "url": "/src/assets/images/product_organizer_meja_1795622177972.jpg",
+          "urutan": 1
+        }
+      ]
+    },
+    {
+      "id": "prod-arabika-flores",
+      "kategori_id": "kat-kopi",
+      "nama": "Kopi Arabika Flores Bajawa 250g",
+      "deskripsi": "Single origin Flores Bajawa dengan aroma rempah lembut, cokelat susu, dan akhir rasa bersih. Tersedia dalam kemasan siap seduh.",
+      "tipe": "Stok Sendiri",
+      "harga": 84000,
+      "stok": 2,
+      "stok_minimum": 4,
+      "estimasi_tiba_hari": null,
+      "link_shopee": null,
+      "aktif": true,
+      "jumlah_terjual": 22,
+      "dihapus_pada": null,
+      "dibuat_pada": "2026-11-20T16:05:35.022Z",
+      "varian": [],
+      "foto": [
+        {
+          "id": "ft-flores-1",
+          "produk_id": "prod-arabika-flores",
+          "url": "/src/assets/images/product_kopi_arabika_1795622176264.jpg",
+          "urutan": 1
+        }
+      ]
+    }
+  ],
+  "pembeli": [
+    {
+      "id": "pemb-siti",
+      "nama": "Siti Rahma",
+      "no_whatsapp": "6281234567890",
+      "email": "siti.rahma@gmail.com",
+      "dibuat_pada": "2026-10-26T16:05:35.022Z"
+    },
+    {
+      "id": "pemb-budi",
+      "nama": "Budi Santoso",
+      "no_whatsapp": "6281398765432",
+      "email": "budi.santoso@gmail.com",
+      "dibuat_pada": "2026-11-10T16:05:35.022Z"
+    }
+  ],
+  "alamat": [
+    {
+      "id": "alm-siti-1",
+      "pembeli_id": "pemb-siti",
+      "nama_penerima": "Siti Rahma",
+      "no_telepon": "6281234567890",
+      "nama_wilayah": "Menteng, Jakarta Pusat",
+      "alamat_lengkap": "Jl. Kenanga No. 24, RT 03/RW 02, Kelurahan Cempaka",
+      "patokan": "Rumah pagar abu-abu sebelah apotek",
+      "is_utama": true,
+      "dibuat_pada": "2026-10-26T16:05:35.023Z",
+      "lat": -6.1995,
+      "lng": 106.8358,
+      "jarak_km": 1.5
+    },
+    {
+      "id": "alm-siti-2",
+      "pembeli_id": "pemb-siti",
+      "nama_penerima": "Siti Rahma (Kantor)",
+      "no_telepon": "6281234567890",
+      "nama_wilayah": "Kebayoran Baru, Jakarta Selatan",
+      "alamat_lengkap": "Ruko Graha Selatan Blok B2, Jl. Sudirman",
+      "patokan": "Titip di meja resepsionis lantai 1",
+      "is_utama": false,
+      "dibuat_pada": "2026-11-11T16:05:35.023Z",
+      "lat": -6.2248,
+      "lng": 106.8065,
+      "jarak_km": 3.8
+    },
+    {
+      "id": "alm-budi-1",
+      "pembeli_id": "pemb-budi",
+      "nama_penerima": "Budi Santoso",
+      "no_telepon": "6281398765432",
+      "nama_wilayah": "Palmerah, Jakarta Barat",
+      "alamat_lengkap": "Perumahan Griya Asri Blok D4 No. 11",
+      "patokan": "Dekat pos satpam blok D",
+      "is_utama": true,
+      "dibuat_pada": "2026-11-10T16:05:35.023Z",
+      "lat": -6.1912,
+      "lng": 106.7932,
+      "jarak_km": 3.3
+    }
+  ],
+  "keranjang": [
+    {
+      "id": "cart-seed-1",
+      "pembeli_id": "pemb-siti",
+      "produk_id": "prod-kopi-gayo",
+      "varian_id": "var-kopi-biji",
+      "jumlah": 1,
+      "dipilih": true,
+      "dibuat_pada": "2026-11-25T12:05:35.023Z"
+    }
+  ],
+  "pesanan": [
+    {
+      "id": "ord-001",
+      "nomor_pesanan": "RM-20261124-001",
+      "pembeli_id": "pemb-siti",
+      "nama_pembeli": "Siti Rahma",
+      "no_whatsapp_pembeli": "6281234567890",
+      "nama_penerima": "Siti Rahma",
+      "no_telepon_penerima": "6281234567890",
+      "alamat_lengkap": "Jl. Kenanga No. 24, RT 03/RW 02, Kelurahan Cempaka",
+      "nama_wilayah": "Kecamatan Pusat",
+      "tanggal_antar": "2026-11-23",
+      "jam_antar": "15:00 - 18:00",
+      "catatan_pembeli": "Tolong dikemas rapi ya kak",
+      "subtotal": 196000,
+      "ongkir": 0,
+      "total_cod": 196000,
+      "status": "Selesai",
+      "sub_status": null,
+      "status_pembayaran": "Sudah Dibayar",
+      "dibatalkan_oleh": null,
+      "alasan_batal": null,
+      "dikonfirmasi_pada": "2026-11-22T16:05:35.023Z",
+      "diantar_pada": "2026-11-23T16:05:35.023Z",
+      "selesai_pada": "2026-11-24T22:05:35.023Z",
+      "dibuat_pada": "2026-11-22T16:05:35.023Z",
+      "items": [
+        {
+          "id": "oi-001-a",
+          "pesanan_id": "ord-001",
+          "produk_id": "prod-kopi-gayo",
+          "varian_id": "var-kopi-biji",
+          "nama_produk": "Kopi Arabika Gayo Roast 250g",
+          "nama_varian": "Biji Utuh (Whole Bean)",
+          "harga_satuan": 78000,
+          "jumlah": 1,
+          "tipe_produk": "Stok Sendiri",
+          "estimasi_tiba_hari": null,
+          "status_shopee": null,
+          "foto_url": "/src/assets/images/product_kopi_arabika_1795622176264.jpg"
+        },
+        {
+          "id": "oi-001-b",
+          "pesanan_id": "ord-001",
+          "produk_id": "prod-tas-kanvas",
+          "varian_id": null,
+          "nama_produk": "Tas Kanvas Harian Heavyweight 14oz",
+          "nama_varian": null,
+          "harga_satuan": 118000,
+          "jumlah": 1,
+          "tipe_produk": "Stok Sendiri",
+          "estimasi_tiba_hari": null,
+          "status_shopee": null,
+          "foto_url": "/src/assets/images/product_tas_kanvas_1795622178940.jpg"
+        }
+      ],
+      "riwayat": [
+        {
+          "id": "rh-1",
+          "pesanan_id": "ord-001",
+          "status_lama": null,
+          "status_baru": "Baru",
+          "diubah_oleh": "pembeli",
+          "alasan": null,
+          "waktu": "2026-11-22T16:05:35.023Z"
+        },
+        {
+          "id": "rh-2",
+          "pesanan_id": "ord-001",
+          "status_lama": "Baru",
+          "status_baru": "Diproses",
+          "diubah_oleh": "penjual",
+          "alasan": null,
+          "waktu": "2026-11-22T16:05:35.023Z"
+        },
+        {
+          "id": "rh-3",
+          "pesanan_id": "ord-001",
+          "status_lama": "Diproses",
+          "status_baru": "Siap Diantar",
+          "diubah_oleh": "penjual",
+          "alasan": null,
+          "waktu": "2026-11-23T16:05:35.023Z"
+        },
+        {
+          "id": "rh-4",
+          "pesanan_id": "ord-001",
+          "status_lama": "Siap Diantar",
+          "status_baru": "Diantar",
+          "diubah_oleh": "penjual",
+          "alasan": null,
+          "waktu": "2026-11-23T16:05:35.023Z"
+        },
+        {
+          "id": "rh-5",
+          "pesanan_id": "ord-001",
+          "status_lama": "Diantar",
+          "status_baru": "Selesai",
+          "diubah_oleh": "penjual",
+          "alasan": null,
+          "waktu": "2026-11-24T22:05:35.023Z"
+        }
+      ],
+      "lat": -6.1995,
+      "lng": 106.8358,
+      "jarak_km": 1.5
+    },
+    {
+      "id": "ord-002",
+      "nomor_pesanan": "RM-20261125-002",
+      "pembeli_id": "pemb-siti",
+      "nama_pembeli": "Siti Rahma",
+      "no_whatsapp_pembeli": "6281234567890",
+      "nama_penerima": "Siti Rahma",
+      "no_telepon_penerima": "6281234567890",
+      "alamat_lengkap": "Jl. Kenanga No. 24, RT 03/RW 02, Kelurahan Cempaka",
+      "nama_wilayah": "Kecamatan Pusat",
+      "tanggal_antar": "2026-11-29",
+      "jam_antar": "15:00 - 18:00",
+      "catatan_pembeli": "Kirim sekalian sesuai jadwal antar sore",
+      "subtotal": 273000,
+      "ongkir": 0,
+      "total_cod": 273000,
+      "status": "Diproses",
+      "sub_status": null,
+      "status_pembayaran": "Belum Dibayar",
+      "dibatalkan_oleh": null,
+      "alasan_batal": null,
+      "dikonfirmasi_pada": "2026-11-25T06:05:35.023Z",
+      "diantar_pada": null,
+      "selesai_pada": null,
+      "dibuat_pada": "2026-11-25T04:05:35.023Z",
+      "items": [
+        {
+          "id": "oi-002-a",
+          "pesanan_id": "ord-002",
+          "produk_id": "prod-lampu-meja",
+          "varian_id": "var-lampu-silver",
+          "nama_produk": "Lampu Meja LED Nirkabel Aluminium",
+          "nama_varian": "Brushed Silver",
+          "harga_satuan": 195000,
+          "jumlah": 1,
+          "tipe_produk": "Stok Sendiri",
+          "estimasi_tiba_hari": null,
+          "status_shopee": null,
+          "foto_url": "/src/assets/images/product_lampu_meja_1795622177052.jpg"
+        },
+        {
+          "id": "oi-002-b",
+          "pesanan_id": "ord-002",
+          "produk_id": "prod-kopi-gayo",
+          "varian_id": "var-kopi-biji",
+          "nama_produk": "Kopi Arabika Gayo Roast 250g",
+          "nama_varian": "Biji Utuh (Whole Bean)",
+          "harga_satuan": 78000,
+          "jumlah": 1,
+          "tipe_produk": "Stok Sendiri",
+          "estimasi_tiba_hari": null,
+          "status_shopee": null,
+          "foto_url": "/src/assets/images/product_kopi_arabika_1795622176264.jpg"
+        }
+      ],
+      "riwayat": [
+        {
+          "id": "rh-201",
+          "pesanan_id": "ord-002",
+          "status_lama": null,
+          "status_baru": "Baru",
+          "diubah_oleh": "pembeli",
+          "alasan": null,
+          "waktu": "2026-11-25T04:05:35.023Z"
+        },
+        {
+          "id": "rh-202",
+          "pesanan_id": "ord-002",
+          "status_lama": "Baru",
+          "status_baru": "Diproses",
+          "diubah_oleh": "penjual",
+          "alasan": null,
+          "waktu": "2026-11-25T06:05:35.023Z"
+        }
+      ],
+      "lat": -6.1995,
+      "lng": 106.8358,
+      "jarak_km": 1.5
+    },
+    {
+      "id": "ord-003",
+      "nomor_pesanan": "RM-20261125-003",
+      "pembeli_id": "pemb-budi",
+      "nama_pembeli": "Budi Santoso",
+      "no_whatsapp_pembeli": "6281398765432",
+      "nama_penerima": "Budi Santoso",
+      "no_telepon_penerima": "6281398765432",
+      "alamat_lengkap": "Perumahan Griya Asri Blok D4 No. 11",
+      "nama_wilayah": "Kecamatan Barat",
+      "tanggal_antar": "2026-11-26",
+      "jam_antar": "15:00 - 18:00",
+      "catatan_pembeli": "Mohon hubungi WA sebelum kurir jalan",
+      "subtotal": 135000,
+      "ongkir": 10000,
+      "total_cod": 145000,
+      "status": "Baru",
+      "sub_status": null,
+      "status_pembayaran": "Belum Dibayar",
+      "dibatalkan_oleh": null,
+      "alasan_batal": null,
+      "dikonfirmasi_pada": null,
+      "diantar_pada": null,
+      "selesai_pada": null,
+      "dibuat_pada": "2026-11-25T14:05:35.023Z",
+      "items": [
+        {
+          "id": "oi-003-a",
+          "pesanan_id": "ord-003",
+          "produk_id": "prod-tumbler-matte",
+          "varian_id": "var-tumb-charcoal",
+          "nama_produk": "Tumbler Vakum Stainless 500ml",
+          "nama_varian": "Matte Charcoal",
+          "harga_satuan": 135000,
+          "jumlah": 1,
+          "tipe_produk": "Stok Sendiri",
+          "estimasi_tiba_hari": null,
+          "status_shopee": null,
+          "foto_url": "/src/assets/images/product_tumbler_stainless_1795622177026.jpg"
+        }
+      ],
+      "riwayat": [
+        {
+          "id": "rh-301",
+          "pesanan_id": "ord-003",
+          "status_lama": null,
+          "status_baru": "Baru",
+          "diubah_oleh": "pembeli",
+          "alasan": null,
+          "waktu": "2026-11-25T14:05:35.023Z"
+        }
+      ],
+      "lat": -6.1995,
+      "lng": 106.8358,
+      "jarak_km": 1.5
+    }
+  ],
+  "ulasan": [
+    {
+      "id": "ul-001",
+      "pesanan_id": "ord-001",
+      "produk_id": "prod-kopi-gayo",
+      "pembeli_id": "pemb-siti",
+      "nama_pembeli": "Siti Rahma",
+      "rating": 5,
+      "komentar": "Aroma kopinya wangi sekali dan kemasan rapi. Pengantaran tepat waktu sesuai jadwal sore.",
+      "dibuat_pada": "2026-11-25T01:05:35.023Z",
+      "fotos": []
+    }
+  ],
+  "retur": [],
+  "notifikasi": [
+    {
+      "id": "not-penjual-1",
+      "penerima_tipe": "penjual",
+      "penerima_id": null,
+      "jenis": "pesanan_baru",
+      "judul": "Pesanan Baru RM-20261125-003",
+      "isi": "Budi Santoso memesan 1 item senilai Rp145.000 (COD). Segera konfirmasi pesanan.",
+      "tujuan_tipe": "pesanan",
+      "tujuan_id": "ord-003",
+      "sudah_dibaca": false,
+      "dibuat_pada": "2026-11-25T14:05:35.023Z"
+    },
+    {
+      "id": "not-penjual-2",
+      "penerima_tipe": "penjual",
+      "penerima_id": null,
+      "jenis": "stok_menipis",
+      "judul": "Stok Menipis: Kopi Arabika Flores Bajawa 250g",
+      "isi": "Sisa stok saat ini 2 unit (batas minimum 4 unit).",
+      "tujuan_tipe": "produk",
+      "tujuan_id": "prod-arabika-flores",
+      "sudah_dibaca": false,
+      "dibuat_pada": "2026-11-25T11:05:35.023Z"
+    },
+    {
+      "id": "not-pembeli-1",
+      "penerima_tipe": "pembeli",
+      "penerima_id": "pemb-siti",
+      "jenis": "status_pesanan",
+      "judul": "Pesanan RM-20261125-002 Diproses",
+      "isi": "Penjual sedang menyiapkan pesanan Anda untuk pengantaran terjadwal.",
+      "tujuan_tipe": "pesanan",
+      "tujuan_id": "ord-002",
+      "sudah_dibaca": false,
+      "dibuat_pada": "2026-11-25T06:05:35.023Z"
+    }
+  ],
+  "pengaturan": {
+    "batas_waktu_retur_hari": 3,
+    "ukuran_maks_foto_mb": 5,
+    "maks_foto_ulasan": 3,
+    "maks_foto_retur": 5
+  },
+  "tarif_ongkir": {
+    "tarif_dasar": 4000,
+    "tarif_per_km": 2500,
+    "batas_radius_km": 15,
+    "minimal_belanja_gratis_ongkir": 150000
+  }
+}

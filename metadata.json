@@ -1,0 +1,6 @@
+{
+  "name": "RMStore",
+  "description": "Platform toko lokal & pre-order Shopee dengan pembayaran COD, zona ongkir, jadwal antar, ulasan, retur, dan dashboard penjual terpadu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
